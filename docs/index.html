@@ -1,89 +1,75 @@
 <!DOCTYPE html>
 <html lang="fa">
 <head>
-  <meta charset="UTF-8">
-  <title>سایت صنعت مهر</title>
-</head>
-<body>
-  <h1>به سایت صنعت مهر خوش اومدی!</h1>
-  <p>تماس: 09354916470</p>
-  <p>ایمیل: mehrdadmohamadi095@gmail.com</p>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="fa">
-<head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>صنعت مهر - محصولات</title>
   <style>
     body {
       font-family: Tahoma, sans-serif;
-      background-color: #f5f5f5;
+      background-color: #f0f4f8;
       margin: 0;
       padding: 20px;
       direction: rtl;
-      color: #333;
+      color: #222;
+      text-align: center;
     }
     header {
-      text-align: center;
       margin-bottom: 30px;
     }
     header h1 {
+      font-size: 2.8em;
+      color: #0077b6;
       margin: 0;
-      font-size: 2.5em;
-      color: #005f73;
     }
     header p {
-      font-size: 1.1em;
-      color: #0a9396;
-      margin-top: 5px;
+      font-size: 1.3em;
+      color: #023e8a;
+      margin: 8px 0 0 0;
     }
     .contact {
-      text-align: center;
+      font-size: 1.2em;
       margin-bottom: 40px;
     }
     .contact p {
-      margin: 5px 0;
-      font-size: 1.2em;
+      margin: 8px 0;
     }
     .products {
-      max-width: 900px;
-      margin: 0 auto;
       display: flex;
       flex-wrap: wrap;
-      gap: 20px;
       justify-content: center;
+      gap: 22px;
+      max-width: 900px;
+      margin: 0 auto 50px auto;
     }
     .product-card {
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
       width: 180px;
-      padding: 15px;
-      text-align: center;
-      transition: transform 0.2s ease;
+      padding: 18px 12px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: default;
     }
     .product-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 5px 12px rgba(0,0,0,0.25);
+      transform: translateY(-7px);
+      box-shadow: 0 7px 15px rgba(0,0,0,0.2);
     }
     .product-image {
       width: 100%;
-      height: 120px;
+      height: 130px;
       object-fit: contain;
-      margin-bottom: 12px;
+      margin-bottom: 15px;
     }
     .product-name {
-      font-weight: bold;
-      font-size: 1.1em;
+      font-weight: 700;
+      font-size: 1.15em;
       color: #0077b6;
     }
     footer {
-      text-align: center;
-      margin-top: 50px;
-      font-size: 0.9em;
+      font-size: 0.95em;
       color: #555;
+      margin-top: 40px;
     }
   </style>
 </head>
@@ -100,23 +86,23 @@
 
   <section class="products">
     <div class="product-card">
-      <img class="product-image" src="https://via.placeholder.com/180x120?text=%D8%B3%DB%8C%D9%85+%D8%A8%D8%B1%D9%86%D8%AC" alt="سیم برنج" />
+      <img class="product-image" src="https://via.placeholder.com/180x130?text=%D8%B3%DB%8C%D9%85+%D8%A8%D8%B1%D9%86%D8%AC" alt="سیم برنج" />
       <div class="product-name">سیم برنج</div>
     </div>
     <div class="product-card">
-      <img class="product-image" src="https://via.placeholder.com/180x120?text=%D9%85%D8%B3" alt="مس" />
+      <img class="product-image" src="https://via.placeholder.com/180x130?text=%D9%85%D8%B3" alt="مس" />
       <div class="product-name">مس</div>
     </div>
     <div class="product-card">
-      <img class="product-image" src="https://via.placeholder.com/180x120?text=%D9%84%D8%A7%D8%B3%D8%AA%DB%8C%DA%A9" alt="لاستیک" />
+      <img class="product-image" src="https://via.placeholder.com/180x130?text=%D9%84%D8%A7%D8%B3%D8%AA%DB%8C%DA%A9" alt="لاستیک" />
       <div class="product-name">لاستیک</div>
     </div>
     <div class="product-card">
-      <img class="product-image" src="https://via.placeholder.com/180x120?text=%D9%81%D9%86%D8%B1" alt="فنر" />
+      <img class="product-image" src="https://via.placeholder.com/180x130?text=%D9%81%D9%86%D8%B1" alt="فنر" />
       <div class="product-name">فنر</div>
     </div>
     <div class="product-card">
-      <img class="product-image" src="https://via.placeholder.com/180x120?text=%D9%88%D8%A7%D8%B4%D8%B1" alt="واشر" />
+      <img class="product-image" src="https://via.placeholder.com/180x130?text=%D9%88%D8%A7%D8%B4%D8%B1" alt="واشر" />
       <div class="product-name">واشر</div>
     </div>
   </section>
